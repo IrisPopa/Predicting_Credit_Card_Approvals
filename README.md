@@ -18,13 +18,13 @@ scale the features values and feature selection.
 ## Model Selection and Training
 
 I used lazypredict library to compare the performance of different models and to choose the best one as a baseline model for my task. 
-The Logistic Regression was the model that has the best results. I also developed a neural network model using TensorFlow. 
+The Ada Boost was the model that has the best results. I also developed a neural network model using TensorFlow. 
 
 ## Model Optimization
 
-I used Optuna to tune the hyperparameters of the Logistic Regression model and KerasTuner to tune the hyperparameters of the neural network model.
+I used Optuna to tune the hyperparameters of the Ada Boost model and KerasTuner to tune the hyperparameters of the neural network model.
 
 ## Results
 
-The best model was Neural Network tuned who achieved an accuracy of 87% on the test set. 
-The model was effective at identifying both classes, achieving an macro average F1 score of 0.87.
+The best model was Ada Boost tuned who achieved an accuracy of 89% on the test set. 
+The model was effective at identifying both classes, achieving an macro average F1 score of 0.89.
